@@ -1,4 +1,4 @@
-angular.module('devmtnTravel').service('mainSrv', function(){
+angular.module('devmtnTravel').service('mainService', function(){
 
     this.travelInfo = [{
         city: 'New York',
@@ -23,6 +23,8 @@ angular.module('devmtnTravel').service('mainSrv', function(){
         id: 11223489,
         price: 1112
 
+    }];
 
-    }]
-})
+
+
+});
